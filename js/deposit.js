@@ -12,11 +12,11 @@ document.getElementById("btn-deposit").addEventListener("click", function () {
 
     */
   const previousDepositTotal = getTextElementValueById("deposit-total");
-  console.log(previousDepositTotal)
+  // console.log(previousDepositTotal)
 
   // calculate new deposit total
   const newDepositTotal = previousDepositTotal + newDepositAmount;
-  console.log(newDepositTotal, previousDepositTotal, newDepositAmount);
+  // console.log(newDepositTotal, previousDepositTotal, newDepositAmount);
   // set deposit total value
   setTextElementValueById("deposit-total", newDepositTotal);
 
